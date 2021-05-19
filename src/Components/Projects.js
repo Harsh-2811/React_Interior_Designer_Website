@@ -18,7 +18,7 @@ const Projects = ({projects})=>{
                 {projects.map((project,index)=>{
                     return(
                         
- 						<div class="single-portfolio-item port-bg-1 design illustration" style={{"backgroundImage":"url('/images/port-bg-1.jpg')"}} key={index}>
+ 						<div class="single-portfolio-item port-bg-1 design illustration" style={{"backgroundImage":`url('${project.image}')`}} key={index}>
  							<div class="portfolio-content">
  								<h4 class="portfolio-title">{project.title}</h4>
  								<div class="portfolio-category">Casablanca, Morocco</div>
