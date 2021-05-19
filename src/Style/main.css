@@ -1,0 +1,228 @@
+
+.service-footer-title,.social-footer-title,.contact-footer-title,.pricing-title{
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+.service-footer-title::after,.social-footer-title::after,.contact-footer-title::after,.pricing-title::after {
+    background: #b21a26fa none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 45%;
+    position: absolute;
+    width: 10%;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+    .navbar-brand span {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.9);
+      color:#b21a26fa;
+      display: block;
+      letter-spacing: 1px;
+      text-transform: uppercase; }
+
+
+      .animate_link {
+        display: inline-block;
+        position: relative;
+       
+      }
+      
+      .animate_link:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #b21a26fa!important;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      
+      .animate_link:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+  
+      .footer-section{
+        background-color: #593196;
+        color:#fff;
+    }
+    
+    .services-list{
+        list-style:  none;
+        padding-left: 0px !important;    
+    }
+    
+    .services-list li{
+        padding: 2.2% 0%;
+        font-size: 1.2rem;
+        text-align: center !important; 
+        
+    }
+    
+    .services-list li:hover{
+        border-style: none solid solid solid;
+        border-width: 2px;
+        border-color: #b21a26fa !important;
+        
+    }
+    
+    .social-network a.icoFacebook:hover {
+        background-color: #3B5998;
+      }
+      
+      .social-network a.icoLinkedin:hover {
+        background-color: #007bb7;
+      }
+      
+      .social-network a.icoFacebook:hover i,
+      .social-network a.icoLinkedin:hover i {
+        color: #fff;
+      }
+      
+      .social-network a.socialIcon:hover,
+      .socialHoverClass {
+        color: #44BCDD;
+      }
+      
+      .social-circle li a {
+        display: inline-block;
+        position: relative;
+        margin: 0 auto 0 auto;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        
+      }
+      
+      .social-circle li i {
+        margin: 0;
+        line-height: 30px;
+        text-align: center;
+      }
+      ul.social-network {
+        list-style: none;
+        display: inline;
+        margin-left: 0 !important;
+        padding: 0;
+        
+      }
+      
+      ul.social-network li {
+        display: inline;
+        margin: 0 5px;
+        text-align: center;
+      }
+      .social-circle li a:hover i,
+      .triggeredHover {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -ms--transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        transition: all 0.2s;
+      }
+      .icoWhatsapp:hover {
+          background-color: #25D366;
+      }
+      .icoWhatsapp:hover i{
+        color: #fff !important;
+      }
+      .icoInstageam:hover{
+        background-color: #C13584;
+      }
+      .icoInstageam:hover i{
+        color: #fff !important;
+      }
+      
+      .social-circle i {
+        color: #595959;
+        -webkit-transition: all 0.8s;
+        -moz-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        -ms-transition: all 0.8s;
+        transition: all 0.8s;
+      }
+      
+      .social-network a {
+        background-color: #F9F9F9;
+        
+      }
+    
+      ::-webkit-scrollbar {
+        width: 0px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #121618 !important;
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #9cffec !important;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #9cffec !important;
+      }
+    
+      .scrollTop{
+       
+       position: fixed; 
+       width: 100%;
+       left:95%;
+       bottom: 40px;
+       height: 20px;
+       font-size: 2rem;
+       z-index: 1;
+       cursor: pointer;
+       color: #9cffec;
+      
+            
+      }
+      .scrollTop:hover{
+        
+        color:#b21a26fa!important;
+    
+      }
+      @media only screen and (max-width: 600px) {
+        .scrollTop{
+       
+          position: fixed; 
+          width: 100%;
+          left:88%;
+          bottom: 40px;
+          height: 20px;
+          font-size: 2rem;
+          z-index: 1;
+          cursor: pointer;
+          color: #9cffec;
+         
+               
+         }
+      }
