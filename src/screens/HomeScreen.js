@@ -34,28 +34,28 @@ const HomeScreen = (props)=>{
                 "id":"1",
                 "title":"River Front View",
                 
-                "image":"/images/port-bg-5.JPG",
+                "image":"/images/port-bg-5.jpg",
                 
             },
             {
                 "id":"2",
                 "title":"IT Industry",
                 
-                "image":"/images/port-bg-4.JPG",
+                "image":"/images/port-bg-4.jpg",
                 
             },
             {
                 "id":"3",
                 "title":"Resort",
                 
-                "image":"/images/port-bg-7.PNG",
+                "image":"/images/port-bg-7.png",
                 
             },
             {
                 "id":"4",
                 "title":"Home",
                 
-                "image":"/images/port-bg-3.JPG",
+                "image":"/images/port-bg-3.jpg",
                 
             },
             
